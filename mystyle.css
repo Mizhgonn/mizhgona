@@ -264,7 +264,7 @@ color: rebeccapurple;
 /* Create three equal columns that float next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 11.11%;
 }
 
 /* Clear floats after the columns */
