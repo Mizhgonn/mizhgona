@@ -9,21 +9,23 @@ CSS code notes:
 body {
 	margin: 10;
 	padding: 10;
+  font-size: 1.2 em;
 }
 .header {
   background-color: aquamarine;
   text-align: center;
-  padding: 20px;
+  padding: 0.5em;
   color: forestgreen;
 }
 
 /* Navbar links */
 .topnav a {
+  position: relative;
   float: left;
   display: block;
   color: aquamarine;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.5em;
   text-decoration: none;
 }
 
@@ -49,6 +51,7 @@ font-size: xx-large;
 border-style: dashed;
 }
 h2[style] {
+  width: 100%; height="auto";
 text-align: center;
 font-family: cursive;
 font-size: x-large;
@@ -69,7 +72,7 @@ body li {
 }
 #last {
 	color: seagreen;
-	font-size: 15pt;
+	font-size: 1.5em;
 }
 div {
 	padding-top: 24px;
@@ -134,6 +137,7 @@ color: rebeccapurple;
   padding: 10px;
 }
 .button {
+  width="100%"; height="auto";
   background-color: aquamarine; 
   border: none;
   color: black;
@@ -143,3 +147,153 @@ color: rebeccapurple;
   display: inline-block;
   font-size: 16px;
 }
+
+/* Mobile-first layout */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 10;
+  padding: 10;
+  font-size: 1.2 em;
+}
+.header {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 0.5em;
+  color: forestgreen;
+}
+
+/* Navbar links */
+.topnav a {
+  position: relative;
+  float: left;
+  display: block;
+  color: aquamarine;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: mediumaquamarine;
+  color: aquamarine;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: darkgrey;
+}
+
+h1[style] {
+text-align: center;
+}
+h1[style] {
+text-align: center;
+background-color: aquamarine !important;
+font-family: cursive;
+font-size: xx-large;
+border-style: dashed;
+}
+h2[style] {
+  width: 25%; height="auto";
+text-align: center;
+font-family: cursive;
+font-size: x-large;
+border-style: dashed;
+background-color: aquamarine;
+}
+.second {
+  color: rebeccapurple;
+}
+li.item {
+  color: rebeccapurple;
+}
+ul > li {
+  color: rebeccapurple;
+}
+body li {
+  color: rebeccapurple;
+}
+#last {
+  color: seagreen;
+  font-size: 1.5em;
+}
+div {
+  padding-top: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 24px;
+}
+selector:pseudo-class{
+  property: value;
+}
+/* unvisited link */
+a:link {
+color: red;
+}
+/* visited link */
+a:visited {
+color: deeppink;
+}
+/* mouse over link */
+a:hover {
+color: forestgreen;
+}
+/* selected link */
+a:active {
+color: blue;
+}
+p::first-letter {
+color: forestgreen;
+}
+p::first-line {
+color: forestgreen;
+}
+p::selection {
+color: rebeccapurple;
+}
+::marker {
+color: rebeccapurple;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 25%;
+  }
+}
+.footer {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+}
+.button {
+  width="25%"; height="auto";
+  background-color: aquamarine; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
