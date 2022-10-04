@@ -8,31 +8,13 @@ CSS code notes:
 body {
 	margin: 10;
 	padding: 10;
-  font-size: 2 em;
-}
-#task{
-  width:16.67%;
-}
-#requirements{
-  width:16.67%;
-}
-#submission{
-  width:16.67%;
-}
-#grading{
-  width:16.67%;
-}
-#deadline{
- width:16.67%;
-}
-#signin{
-  font-size: 0.5em;
+  width: 100%;
 }
 .header {
   background-color: aquamarine;
   text-align: center;
   padding: 1em;
-  font-size: 2em;
+  width: 100%;
   color: forestgreen;
 }
 
