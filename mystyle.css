@@ -10,6 +10,24 @@ body {
 	padding: 10;
   font-size: 2 em;
 }
+#task{
+  width:16.67%;
+}
+#requirements{
+  width:16.67%;
+}
+#submission{
+  width:16.67%;
+}
+#grading{
+  width:16.67%;
+}
+#deadline{
+ width:16.67%;
+}
+#signin{
+  font-size: 0.5em;
+}
 .header {
   background-color: aquamarine;
   text-align: center;
@@ -149,19 +167,19 @@ color: rebeccapurple;
   font-size: 0.5em;
 }
 body {
-  font-size: 0.5 em;
+  width:100%;
 }
 #task{
-  font-size: 0.5em;
+  width:100%;
 }
 #requirements{
-  font-size: 0.5em;
+  width:100%;
 }
 #submission{
-  font-size: 0.5em;
+  width:100%;
 }
 #grading{
-  font-size: 0.5em;
+  width:100%;
 }
 #deadline{
   font-size: 0.5em;
@@ -190,22 +208,22 @@ body {
   font-size: 1 em;
 }
 #task{
-  font-size: 1em;
+ width:100%;
 }
 #requirements{
-  font-size: 1em;
+  width:100%;
 }
 #submission{
-  font-size: 1em;
+ width:100%;
 }
 #grading{
-  font-size: 1em;
+ width:100%;
 }
 #deadline{
-  font-size: 1em;
+ width:100%;
 }
 #signin{
-  font-size: 1em;
+  width:100%;
 }
 h2[style] {
   width: 100%; height="auto";
