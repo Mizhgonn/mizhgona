@@ -2,37 +2,33 @@ CSS code notes:
 *@media screen and (min-width: 1024px) and( max-width:  1079px) 
 	{
     box-sizing: border-box;
-	margin: 10;
-	padding: 10;
 }
 body {
-	margin: 10;
-	padding: 10;
   width: 100%;
 }
 #task{
  width:100%;
-padding: 5px;
+padding: 10px;
 }
 #requirements{
   width:100%;
-padding: 5px;
+padding: 10px;
 }
 #submission{
  width:100%;
-padding: 5px;
+padding: 10px;
 }
 #grading{
  width:100%;
-padding: 5px;
+padding: 10px;
 }
 #deadline{
  width:100%;
-padding: 5px;
+padding: 10px;
 }
 #signin{
   width:100%;
-padding: 5px;
+padding: 10px;
 }
 .header {
   background-color: aquamarine;
@@ -171,11 +167,9 @@ color: rebeccapurple;
 @media screen and (max-width: 600px) {
 .header {
   font-size: 0.5em;
-padding: 2px;
 }
 body {
 width:100%;
-padding: 2px;
 }
 #task{
   width:100%;
@@ -217,12 +211,9 @@ h2[style] {
 @media screen and (max-width: 1023px) and (min-width: 768) {
 .header {
   font-size: 1 em;
-padding: 3px;
-
 }
 body {
   font-size: 1 em;
-padding: 3px;
 }
 #task{
  width:100%;
