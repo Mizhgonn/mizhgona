@@ -147,6 +147,7 @@ color: rebeccapurple;
 @media screen and (max-width: 600px) {
 .header {
   font-size: 0.5em;
+padding: 2px;
 }
 body {
 width:100%;
@@ -186,9 +187,12 @@ h2[style] {
 @media screen and (max-width: 1023px) and (min-width: 768) {
 .header {
   font-size: 1 em;
+padding: 3px;
+
 }
 body {
   font-size: 1 em;
+padding: 3px;
 }
 #task{
  width:100%;
