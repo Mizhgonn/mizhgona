@@ -151,6 +151,24 @@ color: rebeccapurple;
 body {
   font-size: 0.5 em;
 }
+#task{
+  font-size: 0.5em;
+}
+#requirements{
+  font-size: 0.5em;
+}
+#submission{
+  font-size: 0.5em;
+}
+#grading{
+  font-size: 0.5em;
+}
+#deadline{
+  font-size: 0.5em;
+}
+#signin{
+  font-size: 0.5em;
+}
 h2[style] {
   width: 100%; height="auto";
   }
@@ -170,6 +188,24 @@ h2[style] {
 }
 body {
   font-size: 1 em;
+}
+#task{
+  font-size: 1em;
+}
+#requirements{
+  font-size: 1em;
+}
+#submission{
+  font-size: 1em;
+}
+#grading{
+  font-size: 1em;
+}
+#deadline{
+  font-size: 1em;
+}
+#signin{
+  font-size: 1em;
 }
 h2[style] {
   width: 100%; height="auto";
