@@ -10,6 +10,30 @@ body {
 	padding: 10;
   width: 100%;
 }
+#task{
+ width:100%;
+padding: 5px;
+}
+#requirements{
+  width:100%;
+padding: 5px;
+}
+#submission{
+ width:100%;
+padding: 5px;
+}
+#grading{
+ width:100%;
+padding: 5px;
+}
+#deadline{
+ width:100%;
+padding: 5px;
+}
+#signin{
+  width:100%;
+padding: 5px;
+}
 .header {
   background-color: aquamarine;
   text-align: center;
@@ -155,21 +179,27 @@ padding: 2px;
 }
 #task{
   width:100%;
+padding: 2px;
 }
 #requirements{
   width:100%;
+	padding: 2px;
 }
 #submission{
   width:100%;
+padding:2px;
 }
 #grading{
   width:100%;
+padding: 2px;
 }
 #deadline{
-  font-size: 0.5em;
+  width: 100%;
+padding:2px;
 }
 #signin{
-  font-size: 0.5em;
+  width: 100%;
+padding:2px;
 }
 h2[style] {
   width: 100%; height="auto";
@@ -196,27 +226,33 @@ padding: 3px;
 }
 #task{
  width:100%;
+padding: 3px;
 }
 #requirements{
   width:100%;
+padding: 3px;
 }
 #submission{
  width:100%;
+padding: 3px;
 }
 #grading{
  width:100%;
+padding: 3px;
 }
 #deadline{
  width:100%;
+padding: 3px;
 }
 #signin{
   width:100%;
+padding: 3px;
 }
 h2[style] {
   width: 100%; height="auto";
   }
 #last {
-  font-size: 1 em;
+  font-size: 1.5 em;
 }
 .column {
   float: left;
