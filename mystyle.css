@@ -171,30 +171,22 @@ color: rebeccapurple;
 body {
 width:100%;
 }
-#task{
-  width:100%;
-padding: 2px;
-}
-#requirements{
-  width:100%;
-	padding: 2px;
-}
-#submission{
-  width:100%;
-padding:2px;
-}
-#grading{
-  width:100%;
-padding: 2px;
-}
-#deadline{
-  width: 100%;
-padding:2px;
-}
-#signin{
-  width: 100%;
-padding:2px;
-}
+	nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	nav > ul{
+		width:  100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	}
+	nav > ul > li{
+		width: 100%;
+		margin: .25rem;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
 h2[style] {
   width: 100%; height="auto";
   }
@@ -215,30 +207,22 @@ h2[style] {
 body {
   font-size: 1 em;
 }
-#task{
- width:100%;
-padding: 3px;
-}
-#requirements{
-  width:100%;
-padding: 3px;
-}
-#submission{
- width:100%;
-padding: 3px;
-}
-#grading{
- width:100%;
-padding: 3px;
-}
-#deadline{
- width:100%;
-padding: 3px;
-}
-#signin{
-  width:100%;
-padding: 3px;
-}
+	nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	nav > ul{
+		width:  100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	}
+	nav > ul > li{
+		width: 100%;
+		margin: .25rem;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
 h2[style] {
   width: 100%; height="auto";
   }
