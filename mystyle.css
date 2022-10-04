@@ -2,8 +2,8 @@ CSS code notes:
 *@media screen and (min-width: 1024px) and( max-width:  1079px) 
 	{
     box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 }
 body {
 	margin: 10;
@@ -13,7 +13,7 @@ body {
 .header {
   background-color: aquamarine;
   text-align: center;
-  padding: 1em;
+  padding: 5px;
   width: 100%;
   color: forestgreen;
 }
@@ -149,7 +149,8 @@ color: rebeccapurple;
   font-size: 0.5em;
 }
 body {
-  width:100%;
+width:100%;
+padding: 2px;
 }
 #task{
   width:100%;
